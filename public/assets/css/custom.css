@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url('../fonts/montserrat/font/Montserrat-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../fonts/montserrat/font/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Hairline';
+  src: url('../fonts/montserrat/font/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('../fonts/montserrat/font/Montserrat-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../fonts/montserrat/font/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-black {
+  font-family: 'Montserrat Black';
+}
+
+.font-bold {
+  font-family: 'Montserrat Bold';
+}
+
+.font-medium {
+  font-family: 'Montserrat Hairline';
+}
+
+.font-light {
+  font-family: 'Montserrat Light';
+}
+
+.font-regular {
+  font-family: 'Montserrat Regular';
+  font-weight: 400;
+}
+
+body {
+  padding-top: 0rem;
+  color: #4d4d4d;
+  /* font-family: 'Montserrat Regular'; */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #212529 !important;
+}
+
+.btn {
+  border-radius: 2rem !important;
+}
+
+.btn-center {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  left: 43%;
+}
+
+.best-seller {
+  border-color: #417fde;
+}
+
+.no-border {
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+.no-border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+.no-bullets {
+  list-style-type:none;
+  padding-left: 0px;
+}
+
+.bg-custom-1 {
+  background-color: #4a90ee;
+}
+
+.bg-custom-2 {
+  background-color: #417fde;
+}
+.bg-custom-3 {
+  background-color: #303030;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.ribbon-link {
+  color: #212529 !important;
+}
+
+.fs-4 {
+  font-size: 14px !important;
+}
+
+.fs-2 {
+  font-size: 12px;
+}
+
+
+.btn-border-bold {
+  border :2px solid !important;
+}
+
+.newslatter {
+  border-radius: 25px;
+}
+
+.group-title {
+  color: darkgrey;
+}
+
+.link-color {
+  color: rgb(68, 68, 68);
+}
+
+.list-title {
+  color: rgb(226, 226, 226);
+  font-size: 14px;
+}
+
+.newsletter-info {
+  color: rgba(133, 133, 133, 0.609);
+}
+
+.best-seller .card-header .title:before, .best-seller .card-header .title:after {
+  position: absolute;
+  content: '';
+  top: -8px;
+  left: -10px;
+  background: url(../images/ribbon-best-seller.png) left top no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.separator {
+  border-top: 2px solid rgb(0 0 0 / 13%);
+}
+
+.currency {
+  font-size: 24px;
+}
+
+.bg-icon-custom {
+  color: rgb(0, 182, 0);
+}
+
+.small-separator {
+  width: 120px;
+  height: 5px;
+  background-color: #e1e1e1;
+  display: block;
+  margin: auto;
+}
+
+.btn-social {
+  height: 50px;
+  width: 50px;
+}
+
+.mini-header {
+  padding: 0 1rem 0.5rem;
+}
+
+.responsive-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+.border-left {
+    width: 75%;
+    margin: 0 auto;
+    border-left: 1px solid rgba(255, 255, 255, 0.487);
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .desk-header {
+    display: none;
+  }
+  .responsive-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .center-text {
+    text-align: center;
+  }
+  .border-left {
+    width: 75%;
+    margin: 0 auto;
+    border-left: none !important;
+  }
+}
